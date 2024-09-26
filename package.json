@@ -1,0 +1,24 @@
+{
+    "name": "employee-tracker",
+    "version": "1.0.0",
+    "description": "A command-line application to manage employee database with PostgreSQL.",
+    "main": "index.js",
+    "scripts": {
+      "start": "node index.js",
+      "seeds": "node seeds.js"
+    },
+    "keywords": [
+      "employee",
+      "tracker",
+      "management",
+      "PostgreSQL",
+      "Inquirer"
+    ],
+    "author": "Your Name",
+    "license": "MIT",
+    "dependencies": {
+      "inquirer": "8.2.4",
+      "pg": "^8.8.0"
+    }
+  }
+  
